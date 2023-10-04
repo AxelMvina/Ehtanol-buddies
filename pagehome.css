@@ -78,7 +78,7 @@ nav a:hover{
     box-shadow: 0px 1px 3px #CCC;
     background-color:#C7F3FF ;
     position: absolute;
-    width: 88%;
+    width: 100%;
     z-index: 1000;
 }
 nav > ul li:hover .sous{

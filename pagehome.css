@@ -27,8 +27,14 @@
 }
 
 
-/* Menu déroulant */
-.menu2{
+/*menu déroulant CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+nav{
     width: 100%;
     margin: 0 auto;
     background-color: white;
@@ -36,25 +42,25 @@
     top: 0px;
 }
 
-.menu2 ul{
+nav ul{
     list-style-type: none;
 }
 
-.menu2 ul li{
+nav ul li{
     float: left;
     width: 25%;
     text-align: center;
     position: relative;
-    padding-left: 1000px;
+    padding-left: 10px;
 }
 
-.menu2 ul::after{
+nav ul::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.menu2 a{
+nav a{
     border-radius: 10px 10px 0px 0px;
     background-color: #C7F3FF;
     display: block;
@@ -64,10 +70,6 @@
     padding: 10px 0px;
 }
 
-.menu2 a:hover{
-    color: #C23BE7;
-    border-bottom: 2px solid #C7F3FF;
-}
 nav a:hover{
     color: #C23BE7;
     border-bottom: 2px solid #C23BE7;
@@ -81,7 +83,7 @@ nav a:hover{
     width: 88%;
     z-index: 1000;
 }
-.menu2 > ul li:hover .sous{
+nav > ul li:hover .sous{
     display: block;
 }
 .sous li{
@@ -105,58 +107,5 @@ nav a:hover{
 .conteneur{
   margin: 50px 20px;
   height: 1500px;
-}
-
-
-
-
-
-
-
-/* 2eme menu deroulant */
-
-.menu1 > ul li:hover .sous{
-    display: block;
-}
-
-.menu1 {
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
-    position: sticky;
-    top: 0px;
-}
-
-.menu1 ul{
-    list-style-type: none;
-}
-
-.menu1 ul li{
-    float: left;
-    width: 25%;
-    text-align: center;
-    position: relative;
-    
-}
-
-.menu1 ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.menu1 a{
-    border-radius: 10px 10px 0px 0px;
-    background-color: #C7F3FF;
-    display: block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid transparent;
-    padding: 10px 0px;
-}
-
-.menu1 a:hover{
-    color: #C23BE7;
-    border-bottom: 2px solid #C7F3FF;
 }
 

@@ -64,15 +64,13 @@
     padding: 10px 0px;
 }
 
-<<<<<<< HEAD:style.css
 .menu2 a:hover{
     color: #C23BE7;
     border-bottom: 2px solid #C7F3FF;
-=======
+}
 nav a:hover{
     color: #C23BE7;
     border-bottom: 2px solid #C23BE7;
->>>>>>> 2ac46cf0d841ff9a72fd7228084a0c15beedd256:pagehome.css
 }
 
 .sous{

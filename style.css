@@ -1,0 +1,158 @@
+
+.header {
+    background-color: #C7F3FF;
+    text-align: center;
+}
+
+.texttop {
+    text-align: center;
+    color:black;
+    background-color: #C7F3FF;
+    font-family: Roboto ;
+}
+
+.Boutton1 {
+    background-color: #C23BE7 ;
+    color: white;
+    text-decoration: none;
+}
+
+.bouttonT{
+    text-align: right;
+    margin-right: 200px;
+}
+
+.maps {
+    text-align: right;
+}
+
+
+/* Menu déroulant */
+.menu2{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+.menu2 ul{
+    list-style-type: none;
+}
+
+.menu2 ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    padding-left: 1000px;
+}
+
+.menu2 ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu2 a{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #C7F3FF;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+.menu2 a:hover{
+    color: #C23BE7;
+    border-bottom: 2px solid #C7F3FF;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 3px #CCC;
+    background-color:#C7F3FF ;
+    position: absolute;
+    width: 88%;
+    z-index: 1000;
+}
+.menu2 > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+
+
+
+
+
+
+/* 2eme menu deroulant */
+
+.menu1 > ul li:hover .sous{
+    display: block;
+}
+
+.menu1 {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+.menu1 ul{
+    list-style-type: none;
+}
+
+.menu1 ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    
+}
+
+.menu1 ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu1 a{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #C7F3FF;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+.menu1 a:hover{
+    color: #C23BE7;
+    border-bottom: 2px solid #C7F3FF;
+}
+

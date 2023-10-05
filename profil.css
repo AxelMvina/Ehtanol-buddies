@@ -1,6 +1,7 @@
 .header {
     background-color: #C7F3FF;
     text-align: center;
+
 }
 
 .texttop {
@@ -102,7 +103,19 @@ nav > ul li:hover .sous{
   height: 1500px;
 }
 
-.h1 { border: 15px;
-border-color: black;
+.div {display: flex;
+    text-align: right;
+}
 
+.h1 { border: solid thin;
+border-color: black;
+background-color: aqua;
+border-radius: 10px 10px 10px 10px;
+}
+
+.profillist{ display: flex;
+}
+
+.profilbouton { 
+    text-align: right;
 }

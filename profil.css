@@ -102,9 +102,7 @@ nav > ul li:hover .sous{
   height: 1500px;
 }
 
-.h1 { 
-text-align: center;
-display: block;
-border: 3px black;
+.h1 { border: 15px;
+border-color: black;
 
 }

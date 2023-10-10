@@ -141,24 +141,33 @@ h1 {
 
 #blockhelp{
     border: 1px solid black;
-    background-color: #CCC;
+    background-color: #eeeeee;
     margin-left: 7em;
     box-shadow: 1px 3px 4px black;
+    padding: 20px;
+    margin-right: 7em;
+    margin-top: 1em;
+    margin-bottom: 3.5em;
 }
 
 
 
 /* nous contacter */
 
+#contactsupbottom{
+    margin-bottom: 50px;
+}
 #h2support{
     margin-top: 1em;
     display: flex;
     margin-left: 5em;
 }
+
 #h2sup {
     border: solid thin black;
     border-radius: 10px;
     margin-left: 1em;
+    background-color: #C7F3FF;
 }
 
 #numsup {
@@ -168,4 +177,45 @@ h1 {
 #pcontactsup {
     margin-top: 1em;
     margin-left: 7em;
+}
+
+/* footer */
+#footer {
+    background-color: #d6d5d5;
+    height: 200px;
+    display: flex;
+    box-shadow: 2px 0px 4px;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+#footcontact{
+    margin: 50px;
+    padding-top: 40px;
+}
+
+#footcondi{
+    margin: 50px;
+    padding-top: 40px;
+}
+
+#footface{
+    margin: 50px;
+    padding-top: 40px;
+}
+
+#foottwit{
+    margin: 50px;
+    padding-top: 40px;
+}
+
+#footinsta{
+    margin: 50px;
+    padding-top: 40px;
+}
+
+.footlien{
+    color: black;
+    
+
 }

@@ -14,6 +14,8 @@
     font-family: Roboto ;
 }
 
+
+/* Boutton trouver des buddies */
 .Boutton1 {
     background-color: #C23BE7 ;
     border-radius: 5px;
@@ -112,4 +114,46 @@ nav > ul li:hover .sous{
 .conteneur{
   margin: 50px 20px;
   height: 1500px;
+}
+
+
+/* footer */
+#footer {
+    background-color: #d6d5d5;
+    height: 200px;
+    display: flex;
+    box-shadow: 2px 0px 4px;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+#footcontact{
+    margin: 50px;
+    padding-top: 40px;
+}
+
+#footcondi{
+    margin: 50px;
+    padding-top: 40px;
+}
+
+#footface{
+    margin: 50px;
+    padding-top: 40px;
+}
+
+#foottwit{
+    margin: 50px;
+    padding-top: 40px;
+}
+
+#footinsta{
+    margin: 50px;
+    padding-top: 40px;
+}
+
+.footlien{
+    color: black;
+    
+
 }

@@ -37,7 +37,9 @@
 .maps {
     text-align: right;
     margin: 35px;
+    /* border: 2px solid black; */
 }
+
 
 
 /*menu déroulant CSS*/
@@ -120,6 +122,9 @@ nav > ul li:hover .sous{
   height: 1500px;
 }
 
+
+
+
 /* footer */
 #footer {
     background-color: #d6d5d5;
@@ -160,3 +165,21 @@ nav > ul li:hover .sous{
     
 
 }
+
+/* slider event
+#carouselExampleCaptions{
+    height: 60%;
+    width: 60%;
+    margin: 35px;
+    margin-top: 40px;
+}
+
+.titreevent{
+    color: blue;
+}
+
+section{
+    display: flex;
+    align-items: center;
+} */
+

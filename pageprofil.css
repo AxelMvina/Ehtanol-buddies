@@ -213,3 +213,12 @@ nav > ul li:hover .sous{
     color: black;
     padding-left: 20px;
 }
+
+/* correction bootstrap margin nav */
+dl, ol, ul{
+    margin-bottom: 0rem !important;
+}
+
+ol, ul{
+    padding-left: 0rem !important;
+}

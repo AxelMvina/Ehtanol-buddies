@@ -157,6 +157,9 @@ nav > ul li:hover .sous{
 }
 
 /* profil */
+#profil{
+    background-color: lightblue;
+}
 
 .address-content{
     font-size:13px;
@@ -167,7 +170,7 @@ nav > ul li:hover .sous{
 }
 
 .content-aboutme span{
-    font-size:13px;
+    font-size:20px;
 }
 
 .portfolio-content p{
@@ -175,9 +178,16 @@ nav > ul li:hover .sous{
     font-size:13px;
 }
 
-.badge{
-    
-    font-size:11px;
+.badge{ 
+    height: 20px;
+    font-size:30px;
     font-weight:600;
 }
 
+#icones{
+    padding-left: 20px;
+}
+
+#kiffes{
+    padding-left: 20px;
+}

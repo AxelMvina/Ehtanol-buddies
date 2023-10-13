@@ -4,6 +4,11 @@
     text-align: center;
 }
 
+#itemmiddle{
+    background-image: url(Screenshots/zetong-li-eCj3F24lVO0-unsplash.jpg);
+    background-size: cover;
+}
+
 #logo1 {
     width: 25%;
 }
@@ -40,7 +45,6 @@
 .maps {
     text-align: right;
     margin: 35px;
-    border: 2px solid black;
 }
 
 
@@ -130,13 +134,15 @@ nav > ul li:hover .sous{
 
 /* footer */
 #footer {
-    background-color: #707070;
+    background-color: #809e9e;
     height: 200px;
     display: flex;
     box-shadow: 2px 0px 4px;
     flex-direction: column;
     justify-content: space-around;
     padding-left: 50px;
+    font-weight: 700;
+    color: black;
 }
 
 .footitem{
@@ -147,11 +153,6 @@ nav > ul li:hover .sous{
     color: black;
     padding-left: 20px;
 }
-
-#foottext{
-    font-weight: 600;
-}
-
 
 /* slider event */
 #carouselExampleCaptions{
@@ -177,4 +178,49 @@ dl, ol, ul{
 
 ol, ul{
     padding-left: 0rem !important;
+}
+
+/* wave top */
+.custom-shape-divider-top-1697198227 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: 27.4em;
+}
+
+.custom-shape-divider-top-1697198227 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 41px;
+}
+
+.custom-shape-divider-top-1697198227 .shape-fill {
+    fill: #C7F3FF;
+}
+
+/* wave bottom */
+.custom-shape-divider-bottom-1697198593 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -25.4em;
+}
+
+.custom-shape-divider-bottom-1697198593 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 41px;
+}
+
+.custom-shape-divider-bottom-1697198593 .shape-fill {
+    fill: #809e9e;
 }

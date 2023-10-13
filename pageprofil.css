@@ -222,3 +222,11 @@ dl, ol, ul{
 ol, ul{
     padding-left: 0rem !important;
 }
+
+/* catégories */
+#containercategorie{
+    border: solid 3px;
+    height: 100px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}

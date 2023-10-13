@@ -1,5 +1,10 @@
-.header {background-color: #C7F3FF;
+.header {
+    background-color: #C7F3FF;
     text-align: center;
+}
+
+#logo1 {
+    width: 25%;
 }
 
 .texttop {
@@ -9,15 +14,25 @@
     font-family: Roboto ;
 }
 
+
+/* Boutton trouver des buddies */
 .Boutton1 {
     background-color: #C23BE7 ;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
+    box-shadow:0px 0px 12px rgba(0, 0, 0, 0.6);
+}
+
+.Boutton1:hover{
+    background-color: #7a348d;
+    box-shadow:0px 0px 12px rgba(0, 0, 0, 0.6);
 }
 
 .bouttonT{
     text-align: right;
     margin-right: 200px;
+    padding-bottom: 1em;
 }
 
 
@@ -31,7 +46,7 @@
 nav{
     width: 100%;
     margin: 0 auto;
-    background-color:#C7F3FF;
+    background-color: #C7F3FF;
     top: 0px;  
 }
 
@@ -53,13 +68,13 @@ nav ul li{
 }
 
 nav a{
+    border-radius: 10px 10px 0px 0px;
     background-color: #C7F3FF;
     display: block;
     text-decoration: none;
     color: black;
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid black;
     padding: 10px 0px;
-    border-color: #151728;
 }
 
 nav a:hover{
@@ -101,63 +116,66 @@ nav > ul li:hover .sous{
   height: 1500px;
 }
 
-.container {
-    position: relative;
-    margin: auto;
-    width: 1700px;
-    height: 250px;
-    background-color: #C7F3FF;
-    background-size: cover;
-    border-radius: 5px;
-    overflow: hidden;
-}
 
-.information-bar {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 65px;
-    background-color: #151728;
-}
-
-.profile{
-    position: absolute;
+/* footer */
+#footer {
+    background-color: #d6d5d5;
+    height: 200px;
     display: flex;
-    align-items: center;
-    bottom: 20px;
-    left: 25px;   
+    box-shadow: 2px 0px 4px;
+    justify-content: space-between;
+    align-content: flex-end;
 }
 
-.profile img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid black;
+#footcontact{
+    margin: 50px;
+    padding-top: 40px;
 }
 
-.ul {
-    position: relative;
-    width: 100%;
-    display: flex;
-    padding-left: 200px;
-    height: 100%;
-    margin: 0%;
+#footcondi{
+    margin: 50px;
+    padding-top: 40px;
 }
 
-.li {
-    list-style: none;
-    cursor: pointer;
-    color: #5c5e6e;
-    font-size: 1.1em;
-    padding: 1.5em 1em;
+#footface{
+    margin: 50px;
+    padding-top: 40px;
 }
 
-.li:hover, .active{
-    color: white;
-    border-bottom: 3px solid black;
+#foottwit{
+    margin: 50px;
+    padding-top: 40px;
 }
 
-.name { margin-left: 15%;
+#footinsta{
+    margin: 50px;
+    padding-top: 40px;
+}
+
+.footlien{
     color: black;
-    font-size: x-large;
+}
+
+
+.address-content{
+    font-size:13px;
+}
+
+.card{
+    height:100%;
+}
+
+.content-aboutme span{
+    font-size:13px;
+}
+
+.portfolio-content p{
+    
+    font-size:13px;
+}
+
+.badge{
+    
+    font-size:11px;
+    font-weight:600;
 }

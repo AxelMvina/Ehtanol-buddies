@@ -166,7 +166,7 @@ nav > ul li:hover .sous{
 
 }
 
-/* slider event
+/* slider event */
 #carouselExampleCaptions{
     height: 60%;
     width: 60%;
@@ -181,5 +181,12 @@ nav > ul li:hover .sous{
 section{
     display: flex;
     align-items: center;
-} */
+}
 
+dl, ol, ul{
+    margin-bottom: 0rem !important;
+}
+
+ol, ul{
+    padding-left: 0rem !important;
+}

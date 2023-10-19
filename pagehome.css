@@ -224,3 +224,16 @@ ol, ul{
 .custom-shape-divider-bottom-1697198593 .shape-fill {
     fill: #809e9e;
 }
+
+#toggle-password {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: row;
+    display: flex;
+}
+

@@ -181,7 +181,7 @@ ol, ul{
 }
 
  /* wave top */
-.custom-shape-divider-top-1697198227 {
+/* .custom-shape-divider-top-1697198227 {
     position: absolute;
     top: 0;
     left: 0;
@@ -196,7 +196,7 @@ ol, ul{
     display: block;
     width: calc(140% + 1.3px);
     height: 41px;
-}
+} */
 
 .custom-shape-divider-top-1697198227 .shape-fill {
     fill: #C7F3FF;
@@ -224,3 +224,4 @@ ol, ul{
 .custom-shape-divider-bottom-1697198593 .shape-fill {
     fill: #809e9e;
 }
+

@@ -241,3 +241,17 @@ ol, ul{
     width: 50px;
     font-size: 12px;
 }
+
+.button-category{
+    margin-top: 5px;
+    height: 80px;
+    border: solid 2px black;
+    width: 150px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+#exampleFormControlTextarea1{
+    height: 150px;
+
+}

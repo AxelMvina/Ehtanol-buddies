@@ -20,6 +20,8 @@
     background-color: #C7F3FF;
     font-family: Roboto ;
     font-weight: 600;
+    z-index: 2000;
+    border: none;
 }
 
 .Boutton1 {
@@ -162,6 +164,7 @@ nav > ul li:hover .sous{
     width: 60%;
     margin: 30px;
     margin-top: 40px;
+    z-index: 2000;
 }
 
 .titreevent{
@@ -184,9 +187,6 @@ ol, ul{
 
  
 
-
-
-
 /* wave top */
 .wavetopp{
     position: absolute;
@@ -195,9 +195,5 @@ ol, ul{
     
 }
 
-#carouselExampleCaptions{
-    z-index: 2000;
-}
 
 
-/* wave bottom */

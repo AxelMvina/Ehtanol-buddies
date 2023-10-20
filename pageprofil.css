@@ -344,6 +344,7 @@ display: flex;
     background-color: lightblue;
 }
 
-.body-background{
-    background-image: url = "C:\Users\aymer\OneDrive\Bureau\Ehtanol-buddies\Ehtanol-buddies-10\Screenshots\fondtest.jpg";
-}
+/* .body-background{
+    background-image: url("./Screenshots/fondtest.jpg");
+    background-size: cover;
+} */

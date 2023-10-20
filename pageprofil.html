@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil</title>
-    <link rel="stylesheet" href="pageprofil.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css">
+  <link rel="stylesheet" href="pageprofil.css">
 </head>
 <body>
   <!-- menu -->
@@ -120,8 +120,17 @@
     </div>
     
     <div class="container" id="containercategorie">
-      <button class="button-category"> SAM</button>
-      <a href="categories.html"><button class="button-category"> + </button></a>
+      <div class="badge-category"><button class="button-category"> SAM</button></div>
+      <button id="open-modal">Ajouter une catégorie</button>
+    
+      <div id="myModal" class="modal">
+          <div class="modal-content">
+              <span class="close" id="close-modal">&times;</span>
+              <h2>Ajouter une catégorie</h2>
+              <input type="text" id="category-name" placeholder="Nom de la catégorie">
+              <button id="add-category-button">+</button>
+          </div>
+      </div>
     </div>
     </div>
       

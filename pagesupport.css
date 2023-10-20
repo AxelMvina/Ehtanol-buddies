@@ -195,3 +195,9 @@ dl, ol, ul{
 ol, ul{
     padding-left: 0rem !important;
 }
+
+
+body{
+    background: rgb(0,212,255);
+    background: linear-gradient( #C7F3FF, rgba(255,255,255,1) 60%);
+}

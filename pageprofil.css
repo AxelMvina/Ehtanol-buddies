@@ -178,7 +178,7 @@ nav > ul li:hover .sous{
     font-size:13px;
 }
 
-.badge{ 
+.badge{ background-color: #DC4C64;
     height: 20px;
     font-size:30px;
     font-weight:600;

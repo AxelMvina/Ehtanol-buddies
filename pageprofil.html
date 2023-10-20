@@ -121,7 +121,16 @@
     
     <div class="container" id="containercategorie">
       <button class="button-category"> SAM</button>
-      <a href="categories.html"><button class="button-category"> + </button></a>
+      <button id="open-modal">Ajouter une catégorie</button>
+    
+      <div id="myModal" class="modal">
+          <div class="modal-content">
+              <span class="close" id="close-modal">&times;</span>
+              <h2>Ajouter une catégorie</h2>
+              <input type="text" id="category-name" placeholder="Nom de la catégorie">
+              <button id="add-category-button">+</button>
+          </div>
+      </div>
     </div>
     </div>
       

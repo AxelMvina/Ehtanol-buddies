@@ -168,12 +168,25 @@ nav > ul li:hover .sous{
 }
 
 .titreevent{
-    color: blue;
+    color: rgb(180, 0, 0);
+    font-weight: 800;
+    font-size: x-large;
 }
 
 section{
     display: flex;
     align-items: center;
+}
+
+.textcarou{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+.textevent{
+    color: black;
+    font-weight: 800;
+    font-size: large;
 }
 
 /* correction bootstrap margin nav */

@@ -27,14 +27,16 @@ openModalButton.addEventListener('click', () => {
 closeModalButton.addEventListener('click', () => {
     modal.style.display = 'none';
 });
-
+const categories = document.querySelector(".badge-category");
 addCategoryButton.addEventListener('click', () => {
     const categoryName = categoryNameInput.value;
+    console.log(categoryName);
     if (categoryName) {
         const newCategory = document.createElement('div');
         newCategory.className = 'category';
         newCategory.textContent = categoryName;
         modal.style.display = 'none';
+        categories.appendChild(newCategory);
     }
 });
 

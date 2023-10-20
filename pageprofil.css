@@ -343,3 +343,7 @@ display: flex;
     border-radius: 5px;
     background-color: lightblue;
 }
+
+.body-background{
+    background-image: url = "C:\Users\aymer\OneDrive\Bureau\Ehtanol-buddies\Ehtanol-buddies-10\Screenshots\fond-test.jpg";
+}

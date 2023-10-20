@@ -343,3 +343,8 @@ display: flex;
     border-radius: 5px;
     background-color: lightblue;
 }
+
+body{
+    background: rgb(0,212,255);
+background: linear-gradient( #C7F3FF, rgba(255,255,255,1) 60%);
+}

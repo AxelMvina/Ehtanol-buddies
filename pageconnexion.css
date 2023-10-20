@@ -10,4 +10,5 @@ body{
     position: relative;
     bottom: 33px;
     float: right;
+    margin-right: 4px;
 }

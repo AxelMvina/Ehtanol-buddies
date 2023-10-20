@@ -180,8 +180,7 @@ nav > ul li:hover .sous{
 
 .badge{ background-color: #DC4C64;
     height: 20px;
-    font-size:30px;
-    font-weight:600;
+    font-size:12px;
 }
 
 #icones{
@@ -232,7 +231,7 @@ ol, ul{
 #containercategorie{
     border: solid 3px;
     height: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     border-radius: 5px;
 }
 
@@ -311,3 +310,36 @@ ol, ul{
     margin-top: 10px;
 }
 
+.button-category{
+    margin-top: 5px;
+    height: 80px;
+    border: solid 2px black;
+    width: 150px;
+    background-color: #DC4C64;
+    border-radius: 10px; 
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    background-color: #DC4C64;
+    color: white;
+}
+
+.badge-category{
+display: flex;
+}
+
+#open-modal{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightblue;
+}

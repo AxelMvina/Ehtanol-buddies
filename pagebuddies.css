@@ -175,7 +175,8 @@ ol, ul{
   .likedis {
     display: flex;
     justify-content: center;
-    margin: 6em;
+    margin-top: 6em;
+    margin-bottom: 1em;
   }
 
   body{
@@ -183,3 +184,33 @@ ol, ul{
     background: linear-gradient(0deg, rgba(46,43,143,1) 0%, rgba(199,243,255,1) 75%);
   }
   
+  /* icone */
+  .iconnn {
+    width: 5%;
+    height: 5%;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 4em;
+  }
+
+  .iconlikedis{
+    display: flex;
+    justify-content: center;
+  }
+
+  .textcardlike{
+    margin-top:  0em;
+    background-color: #C7F3FF;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+#carddd{
+    display: flex;
+    justify-content: center;
+}
+
+

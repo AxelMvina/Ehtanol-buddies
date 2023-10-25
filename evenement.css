@@ -211,3 +211,8 @@ body{
     background: rgb(0,212,255);
 background: linear-gradient( #C7F3FF, rgba(255,255,255,1) 60%);
 }
+
+.pubsafe{
+    margin-left: 25em;
+    width: 22%;
+}

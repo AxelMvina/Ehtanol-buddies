@@ -55,3 +55,16 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+#open-chat{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius:  5px;
+    border-top-right-radius: 5px;
+    background-color: rosybrown;
+}

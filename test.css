@@ -1,0 +1,30 @@
+/* styles.css */
+/* .modal {
+     ... Vos styles existants ... 
+} */
+
+#chatModal {
+    display: none;
+}
+
+#chatModal .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+.close-chat {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-chat:hover,
+.close-chat:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

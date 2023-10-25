@@ -116,47 +116,6 @@ nav > ul li:hover .sous{
   height: 1500px;
 }
 
-
-/* footer */
-#footer {
-    background-color: #d6d5d5;
-    height: 200px;
-    display: flex;
-    box-shadow: 2px 0px 4px;
-    justify-content: space-between;
-    align-content: flex-end;
-}
-
-#footcontact{
-    margin: 50px;
-    padding-top: 40px;
-}
-
-#footcondi{
-    margin: 50px;
-    padding-top: 40px;
-}
-
-#footface{
-    margin: 50px;
-    padding-top: 40px;
-}
-
-#foottwit{
-    margin: 50px;
-    padding-top: 40px;
-}
-
-#footinsta{
-    margin: 50px;
-    padding-top: 40px;
-}
-
-.footlien{
-    color: black;
-    
-
-}
 /* footer */
 #footer {
     background-color: #809e9e;
@@ -179,35 +138,24 @@ nav > ul li:hover .sous{
     padding-left: 20px;
 }
 
-.bouton-evenement{ display: flex;
-    margin-bottom: 15px;
-    margin-left: 40px;
-    padding: 15px;
-border-radius: 5px;
-background-color: #C7F3FF;
-}
 
-.row{
-    margin-left: 10px;
-}
-
-
-.col-8{
-    border: solid lightgrey 3px;
-    border-radius: 5px;
-    margin-left: -5px;
-}
-
-.propose{
-    padding: 10px;
-    margin-top: 5px;
-    margin-left: 15px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    background-color: lightblue;
-}
 
 body{
     background: rgb(0,212,255);
 background: linear-gradient( #C7F3FF, rgba(255,255,255,1) 60%);
+}
+
+.card{
+    margin: 30px;
+}
+
+.notification{
+    width: 500px;
+padding: 10px;
+margin-left: 50px;
+border-radius: 5px;
+background: linear-gradient(90deg, #C7F3FF 14.83%, rgba(209, 191, 246, 0.78) 67.22%, rgba(245, 7, 213, 0.00) 104.04%);
+
+box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
 }

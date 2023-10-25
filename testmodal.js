@@ -1,0 +1,32 @@
+
+const openModalButton = document.getElementById('open-modal');
+const modal = document.getElementById('myModal');
+const closeModalButton = document.getElementById('close-modal');
+const addCategoryButton = document.getElementById('add-category-button');
+const categoryNameInput = document.getElementById('category-name');
+
+openModalButton.addEventListener('click', () => {
+    modal.style.display = 'block';
+});
+
+closeModalButton.addEventListener('click', () => {
+    modal.style.display = 'none';
+});
+const categories = document.querySelector(".badge-category");
+addCategoryButton.addEventListener('click', () => {
+    const categoryName = categoryNameInput.value;
+    console.log(categoryName);
+    if (categoryName) {
+        const newCategory = document.createElement('div');
+        newCategory.className = 'category';
+        newCategory.textContent = categoryName;
+        modal.style.display = 'none';
+        categories.appendChild(newCategory);
+    }
+});
+
+window.addEventListener('click', (event) => {
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+});

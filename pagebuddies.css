@@ -197,3 +197,8 @@ ol, ul{
     margin-left: 25em;
     width: 22%;
 }
+
+.dislikee{
+    transform: rotate(180deg);
+    margin-top: 1em;
+}

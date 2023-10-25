@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddies</title>
+    <link rel="stylesheet" href="pagebuddies.css">
+</head>
+<body>
+    
+
+    <!-- le menu deroulant -->
+  <nav>
+    <ul id="nav-ul">
+      <li class="deroulant"><a href="#">Menu &ensp;</a>
+            <ul class="sous">
+              <li><a href="pageHome.html">Home</a></li>
+              <li><a href="#">Buddies</a></li>
+              <li><a href="pagecategories.html">Catégories</a></li>
+              <li><a href="evenement.html">Evènements</a></li>
+              <li><a href="pagesupport.html">Support</a></li>
+            </ul>
+      </li>
+      <li class="deroulant"><a href="#">Profil &ensp;</a>
+          <ul class="sous">
+            <li><a href="pageconnexion.html">Compte</a></li>
+            <li><a href="pageprofil.html">Profil</a></li>
+            <li><a href="#">Notifs</a></li>
+            <li><a href="#">Paramètres</a></li>
+          </ul>
+      </li>
+    </ul>
+  </nav>
+  
+  <header>
+    <!-- logo background top -->
+    <div class="header">   
+        <img src="Screenshots/Capture d'écran 2023-09-29 142316.png" alt="logo Ethanol buddies" id="logo1"><br>
+       <!-- ceci est le boutton principale -->
+        <div class="bouttonT">
+            <a href="#" class="Boutton1" target="_blank" > Trouver des buddies</a>
+        </div>
+    </div>
+  </header>
+
+  <div class="likedis">
+  <div id="swiper">
+    <div class="card" style="--i:0">
+      <img src="Screenshots/personne1soiree.jpg" alt="">
+    </div>
+    <div class="card" style="--i:1">
+      <img src="https://source.unsplash.com/random/1000x1000/?landscape" alt="">
+    </div>
+    <div class="card" style="--i:2">
+      <img src="https://source.unsplash.com/random/1000x1000/?ocean" alt="">
+    </div>
+    <div class="card" style="--i:3">
+      <img src="https://source.unsplash.com/random/1000x1000/?moutain" alt="">
+    </div>
+    <div class="card" style="--i:4">
+      <img src="https://source.unsplash.com/random/1000x1000/?forest" alt="">
+    </div>
+  </div>
+  </div>
+
+  <footer id="footer">
+    <span classe="footitem"><a href="pagesupport.html" class="footlien">Contact</a> <a href="conditionsdutilisations.html" class="footlien">conditions d'utilisations</a></span>
+    <span classe="footitem">Suivez-nous : <a href="#" class="footlien"> <img src="Screenshots/facebook (2).png" alt="">facebook</a> <a href="#" class="footlien"><img src="Screenshots/twitter.png" alt="">twitter</a> <a href="#" class="footlien"><img src="Screenshots/instagram.png" alt="">insta</a></span>
+    <span classe="footitem" id="foottext">2023 Ethanol Buddies.</span>
+</footer>
+
+    <script src="pagebuddies.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

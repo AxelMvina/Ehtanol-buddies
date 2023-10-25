@@ -149,3 +149,10 @@ background: linear-gradient( #C7F3FF, rgba(255,255,255,1) 60%);
     margin: 5px;
     margin-bottom: 8px;
 }
+
+.notification{
+padding: 10px;
+margin-left: 20px;
+border-radius: 5px;
+background-color: #8ecae6;
+}

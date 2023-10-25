@@ -14,27 +14,6 @@
     font-family: Roboto ;
 }
 
-.Boutton1 {
-    background-color: #C23BE7 ;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    box-shadow:0px 0px 12px rgba(0, 0, 0, 0.6);
-    padding: 12px;
-    font-weight: 600;
-}
-
-.Boutton1:hover{
-    background-color: #7a348d;
-    box-shadow:0px 0px 12px rgba(0, 0, 0, 0.6);
-}
-
-.bouttonT{
-    text-align: right;
-    margin-right: 200px;
-    padding-bottom: 1em;
-}
-
 
 /*menu déroulant CSS*/
 *{

@@ -214,7 +214,7 @@ ol, ul{
 }
 
 /* chat */
-/* .modal-chat {
+.modal-chat {    z-index: 6000;
     display: none;
     position: fixed;
     top: 0;
@@ -280,9 +280,12 @@ ol, ul{
     border-top-left-radius:  5px;
     border-top-right-radius: 5px;
     background-color: rosybrown;
+
 }
 
 .chat-position{
-display: flex;
-justify-content: baseline;
-} */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 6000;
+}

@@ -163,6 +163,13 @@ body{
 .paragcate{
     background-color: #C7F3FF;
     font-size: 2em;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.textcate{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -170,4 +177,8 @@ body{
 .pubsafe{
     margin-left: 25em;
     width: 22%;
+}
+
+.card-body {
+    background-color: #c23be7a6;
 }

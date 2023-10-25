@@ -1,32 +1,27 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const openChatButton = document.getElementById("open-chat");
+    const chatModal = document.getElementById("chat-modal");
+    const closeChatButton = document.getElementById("close-chat");
+    const sendMessageButton = document.getElementById("send-message");
+    const userMessageInput = document.getElementById("user-message");
+    const chatMessages = document.getElementById("chat-messages");
 
-const openModalButton = document.getElementById('open-modal');
-const modal = document.getElementById('myModal');
-const closeModalButton = document.getElementById('close-modal');
-const addCategoryButton = document.getElementById('add-category-button');
-const categoryNameInput = document.getElementById('category-name');
+    openChatButton.addEventListener("click", function () {
+        chatModal.style.display = "block";
+    });
 
-openModalButton.addEventListener('click', () => {
-    modal.style.display = 'block';
-});
+    closeChatButton.addEventListener("click", function () {
+        chatModal.style.display = "none";
+    });
 
-closeModalButton.addEventListener('click', () => {
-    modal.style.display = 'none';
-});
-const categories = document.querySelector(".badge-category");
-addCategoryButton.addEventListener('click', () => {
-    const categoryName = categoryNameInput.value;
-    console.log(categoryName);
-    if (categoryName) {
-        const newCategory = document.createElement('div');
-        newCategory.className = 'category';
-        newCategory.textContent = categoryName;
-        modal.style.display = 'none';
-        categories.appendChild(newCategory);
-    }
-});
-
-window.addEventListener('click', (event) => {
-    if (event.target === modal) {
-        modal.style.display = 'none';
-    }
+    sendMessageButton.addEventListener("click", function () {
+        const messageText = userMessageInput.value;
+        if (messageText) {
+            const message = document.createElement("div");
+            message.className = "user-message";
+            message.textContent = messageText;
+            chatMessages.appendChild(message);
+            userMessageInput.value = "";
+        }
+    });
 });

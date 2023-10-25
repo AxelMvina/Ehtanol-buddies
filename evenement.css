@@ -157,3 +157,43 @@ nav > ul li:hover .sous{
     
 
 }
+/* footer */
+#footer {
+    background-color: #809e9e;
+    height: 200px;
+    display: flex;
+    box-shadow: 2px 0px 4px;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+.footitem{
+    padding-top: 10px;
+}
+
+.footlien{
+    color: black;
+    padding-left: 20px;
+}
+
+.bouton-evenement{ display: flex;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    padding: 15px;
+border-radius: 5px;
+background-color: #C7F3FF;
+}
+
+.row{
+    margin-left: 10px;
+}
+
+
+.col-8{
+    border: solid lightgrey 3px;
+    border-radius: 5px;
+    margin-left: -5px;
+}
